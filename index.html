@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="first__inner">
+                <div class="first__content">
+                    <div class="content">
+                        CONTENT
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="decor">
+            <svg id="filter">
+                <filter id="noise">
+                <feTurbulence baseFrequency="0.60" xresult="colorNoise" />
+                <feColorMatrix in="colorNoise" type="matrix" values=".33 .33 .33 0 0 .33 .33 .33 0 0 .33 .33 .33 0 0 0 0 0 1 0"/>
+                <feComposite operator="in" in2="SourceGraphic" result="monoNoise"/>
+                <feBlend in="SourceGraphic" in2="monoNoise" mode="multiply" />
+                </filter>
+            </svg>
+            <div class="bg first__blue-left">
+                <svg width="1036" height="752" viewBox="0 0 1036 752" fill="none" xmlns="http://www.w3.org/2000/svg" id="noisy">
+                    <g filter="url(#filter0_f_16_334)">
+                    <path d="M276.721 182.093C215.257 179.416 177.637 234.869 182.406 286.497C186.645 338.125 233.802 386.311 270.363 422.259C306.923 457.825 332.886 481.153 365.207 491.096C397.529 501.04 436.209 497.598 471.18 506.776C505.62 515.572 536.882 536.988 590.398 553.05C643.914 569.112 719.684 579.82 720.214 556.492C721.274 533.164 647.093 475.417 670.407 421.877C693.721 368.719 815.059 319.386 845.791 271.964C876.523 224.161 816.119 178.651 745.117 184.388C673.586 190.124 590.928 247.871 507.21 246.341C422.962 244.812 338.185 184.77 276.721 182.093Z" fill="#57EBEB" fill-opacity="0.9"/>
+                    </g>
+                    <g filter="url(#filter1_f_16_334)">
+                    <path d="M526.299 355.262C519.402 361.256 525.278 376.555 514.804 388.069C504.33 399.425 477.252 406.995 472.654 415.039C468.311 423.083 486.704 431.6 495.389 454.785C504.075 477.971 503.053 515.824 516.592 513.932C529.876 512.197 557.72 470.873 584.543 453.839C611.111 436.805 636.912 444.06 675.23 443.429C713.804 442.641 764.895 433.966 754.676 424.66C744.458 415.512 672.675 405.734 637.933 396.743C602.936 387.753 604.98 379.709 600.126 372.927C595.528 366.303 584.543 361.098 568.96 356.839C553.378 352.581 533.197 349.269 526.299 355.262Z" fill="#2A30C1"/>
+                    </g>
+                    <defs>
+                    <filter id="filter0_f_16_334" x="0.270615" y="0.270615" width="1035.46" height="751.459" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                    <feGaussianBlur stdDeviation="90.8647" result="effect1_foregroundBlur_16_334"/>
+                    </filter>
+                    <filter id="filter1_f_16_334" x="290.271" y="170.271" width="647.459" height="525.459" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                    <feGaussianBlur stdDeviation="90.8647" result="effect1_foregroundBlur_16_334"/>
+                    </filter>
+                    </defs>
+                </svg>
+            </div>
+            <div class="bg first__red-right">
+                <svg width="571" height="776" viewBox="0 0 571 776" fill="none" xmlns="http://www.w3.org/2000/svg" id="noisy">
+                    <g filter="url(#filter0_f_2341_3111)">
+                    <path d="M180.612 576.601C184.295 623.071 229.306 646.289 267.531 637.978C305.805 630.065 337.529 590.19 361.069 559.404C384.322 528.653 399.391 506.992 403.847 481.774C408.303 456.556 402.146 427.781 405.783 400.641C409.184 373.934 422.33 348.463 429.407 306.746C436.485 265.028 437.493 207.064 419.972 208.8C402.403 210.138 366.019 271.212 323.763 258.578C281.794 245.909 233.619 159.169 195.259 140.397C156.614 121.659 128.12 171.252 138.986 224.125C149.902 277.396 200.799 334.276 207.401 397.378C214.051 460.878 176.929 530.131 180.612 576.601Z" fill="#FF7139"/>
+                    </g>
+                    <defs>
+                    <filter id="filter0_f_2341_3111" x="0.722778" y="0.426147" width="569.4" height="775.145" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                    <feGaussianBlur stdDeviation="67.965" result="effect1_foregroundBlur_2341_3111"/>
+                    </filter>
+                    </defs>
+                </svg>
+            </div>
+            <div class="bg first__purple-left">
+                <svg width="742" height="762" viewBox="0 0 742 762" fill="none" xmlns="http://www.w3.org/2000/svg" id="noisy">
+                    <g filter="url(#filter0_f_16_333)">
+                    <path d="M261.595 457.549C270.038 463.571 291.59 458.441 307.81 467.586C323.807 476.73 334.472 500.372 345.803 504.387C357.134 508.178 369.132 492.12 401.793 484.536C434.454 476.953 487.778 477.845 485.112 466.024C482.668 454.427 424.456 430.116 400.46 406.697C376.464 383.501 386.685 360.975 385.796 327.52C384.685 293.841 372.465 249.234 359.356 258.156C346.469 267.077 332.694 329.75 320.03 360.083C307.365 390.639 296.034 388.854 286.48 393.092C277.148 397.107 269.816 406.697 263.817 420.302C257.818 433.907 253.152 451.527 261.595 457.549Z" fill="#2A30C1"/>
+                    </g>
+                    <defs>
+                    <filter id="filter0_f_16_333" x="0.265411" y="0.265411" width="741.678" height="761.427" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                    <feGaussianBlur stdDeviation="128.367" result="effect1_foregroundBlur_16_333"/>
+                    </filter>
+                    </defs>
+                </svg>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="second__inner">
+                <div class="second__content">
+                    <div class="content">
+                        CONTENT Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="decor">
+            <div class="bg second__purple-center">
+                <svg width="675" height="607" viewBox="0 0 675 607" fill="none" xmlns="http://www.w3.org/2000/svg" id="noisy">
+                    <g opacity="0.99" filter="url(#filter0_f_18_340)">
+                    <path d="M480.548 437.02C515.763 435.997 533.305 389.575 526.958 348.407C520.914 307.212 490.654 270.992 467.292 244.042C443.958 217.399 427.523 200.025 408.405 193.716C389.287 187.408 367.486 192.164 346.912 186.606C326.667 181.327 307.346 165.76 275.72 155.637C244.094 145.513 200.162 140.832 201.5 159.572C202.535 178.34 248.867 220.835 239.344 264.985C229.794 308.828 164.114 354.66 149.934 394.285C135.78 434.216 173.402 467.605 213.46 459.341C253.821 451.05 296.867 400.464 344.683 397.373C392.801 394.254 445.334 438.043 480.548 437.02Z" fill="#2A30C1"/>
+                    </g>
+                    <g opacity="0.99" filter="url(#filter1_f_18_340)">
+                    <path d="M383.309 357.964C386.71 353.153 383.813 340.873 388.977 331.631C394.142 322.516 407.493 316.439 409.761 309.983C411.902 303.526 402.833 296.69 398.55 278.08C394.268 259.469 394.771 229.085 388.096 230.605C381.546 231.997 367.816 265.166 354.59 278.839C341.49 292.512 328.768 286.688 309.874 287.195C290.854 287.828 265.662 294.791 270.7 302.26C275.739 309.603 311.134 317.452 328.264 324.668C345.521 331.884 344.513 338.341 346.907 343.785C349.174 349.102 354.59 353.28 362.274 356.698C369.957 360.116 379.908 362.775 383.309 357.964Z" fill="#2A30C1"/>
+                    </g>
+                    <defs>
+                    <filter id="filter0_f_18_340" x="0.605057" y="0.491837" width="673.92" height="606.402" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                    <feGaussianBlur stdDeviation="73.1434" result="effect1_foregroundBlur_18_340"/>
+                    </filter>
+                    <filter id="filter1_f_18_340" x="123.761" y="84.2629" width="432.609" height="422.606" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                    <feGaussianBlur stdDeviation="73.1434" result="effect1_foregroundBlur_18_340"/>
+                    </filter>
+                    </defs>
+                    </svg>
+                    
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="third__inner">
+                <div class="third__content">
+                    <div class="content">
+                        CONTENT Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="decor">
+            <div class="bg third__red-center">
+                <svg width="684" height="641" viewBox="0 0 684 641" fill="none" xmlns="http://www.w3.org/2000/svg" id="noisy">
+                    <g filter="url(#filter0_f_2341_3246)">
+                    <path d="M113.406 461.979C101.77 499.554 153.242 527.488 206.92 529.016C260.52 530.871 316.795 506.029 358.977 486.648C400.767 467.233 428.464 453.279 443.343 434.258C458.222 415.236 460.283 391.146 474.76 370.429C488.768 350.004 515.269 332.626 539.493 301.096C563.717 269.566 585.664 223.885 561.798 221.543C538.009 218.875 468.014 259.513 416.435 240.545C365.249 221.61 332.162 142.71 287.936 119.708C243.318 96.6731 187.875 129.895 183.495 174.064C179.039 218.559 226.353 274.394 212.677 325.757C198.924 377.446 125.041 424.404 113.406 461.979Z" fill="#FF7139"/>
+                    </g>
+                    <defs>
+                    <filter id="filter0_f_2341_3246" x="0.403664" y="0.845711" width="683.023" height="639.61" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                    <feGaussianBlur stdDeviation="55.6708" result="effect1_foregroundBlur_2341_3246"/>
+                    </filter>
+                    </defs>
+                </svg>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="four__inner">
+                <div class="four__content">
+                    <div class="content">
+                        CONTENT Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="decor">
+            <div class="bg four__blue-left">
+                <svg width="914" height="842" viewBox="0 0 914 842" fill="none" xmlns="http://www.w3.org/2000/svg" id="noisy">
+                    <g filter="url(#filter0_f_21_324)">
+                    <path d="M722.364 373.032C759.28 340.233 736.972 275.123 693.664 237.107C650.657 198.79 586.049 187.566 537.068 179.976C488.389 172.688 455.336 169.033 429.21 179.549C403.084 190.064 383.884 214.749 356.859 227.373C330.435 239.997 295.886 240.86 252.943 258.587C210.001 276.315 158.666 310.905 176.714 329.608C194.462 348.611 281.894 352.028 310.801 407.503C339.407 462.677 309.488 570.511 329.381 625.373C349.575 680.537 419.579 682.126 455.28 637.272C491.28 592.117 492.674 499.616 541.292 453.271C590.209 406.625 685.448 405.832 722.364 373.032Z" fill="#57EBEB" fill-opacity="0.9"/>
+                    </g>
+                    <g filter="url(#filter1_f_21_324)">
+                    <path d="M458.895 461.736C457.512 453.557 442.417 444.245 438.392 429.899C434.493 415.68 441.789 396.301 437.638 387.618C433.361 379.061 417.512 381.327 394.745 367.107C371.977 352.888 342.292 322.184 337.134 330.363C331.977 338.291 351.222 384.977 351.599 411.78C352.102 438.458 333.611 445.379 315.246 464.758C296.88 484.389 278.641 516.478 291.094 518.868C303.421 521.133 346.566 493.574 370.843 483.633C395.246 473.566 400.655 480.99 408.454 484.01C416.001 487.03 425.561 485.771 436.631 481.493C447.7 477.214 460.279 469.915 458.895 461.736Z" fill="#2A30C1"/>
+                    </g>
+                    <defs>
+                    <filter id="filter0_f_21_324" x="0.0760651" y="0.0760651" width="913.848" height="841.848" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                    <feGaussianBlur stdDeviation="86.462" result="effect1_foregroundBlur_21_324"/>
+                    </filter>
+                    <filter id="filter1_f_21_324" x="74.08" y="116.08" width="597.84" height="615.84" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                    <feGaussianBlur stdDeviation="106.46" result="effect1_foregroundBlur_21_324"/>
+                    </filter>
+                    </defs>
+                </svg>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer__content">Футер</div>
+    </footer>
+</body>
+</html>

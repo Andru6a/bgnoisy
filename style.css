@@ -1,0 +1,100 @@
+body{
+    overflow-x: hidden;
+}
+footer{
+    height: 400px;
+}
+/* Noisy for BG */
+#noisy {
+    filter: url(#noise);
+}
+#filter {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+
+.bg{
+    position: absolute;
+    z-index: 2;
+}
+
+
+.section{
+    position: relative;
+}
+
+/* Fifrst Section */
+.first__inner{
+    height: 1150px;
+}
+
+.first__content, .second__content, .third__content, .four__content, .footer__content {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 35px;
+}
+
+.first__blue-left{
+    top: -40%;
+    left: 0;
+    transform: translate(-42%, -1%);
+    opacity: .72;
+}
+
+.first__red-right{
+    top: -10%;
+    right: 0%;
+    transform: translate(45%, -36%);
+    opacity: .6;
+}
+
+.first__purple-left{
+    bottom: -10%;
+    left: 0;
+    transform: translate(-42%, -1%);
+}
+
+
+/* Second Section */
+.second__inner{
+    height: 715px;
+}
+
+.second__purple-center{
+    top: -30%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    opacity: .3;
+}
+
+/* Fifrst Section */
+.third__inner{
+    height: 600px;
+}
+
+.third__red-center{
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    opacity: .5;
+}
+
+/* Four Section */
+.four__inner{
+    height: 1200px;
+}
+
+.four__blue-left{
+    bottom: 0%;
+    left: 0%;
+    transform: translate(-50%, 50%);
+}
